@@ -35,9 +35,9 @@ LIBRARY = $(SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME): $(SRCS)
-	gcc -c $(FLAGS) $(SRCS) -I $(INCLUDES)
-	ar rc $(NAME) $(LIBRARY)
-	ranlib $(NAME)
+	@gcc -c $(FLAGS) $(SRCS) -I $(INCLUDES)
+	@ar rc $(NAME) $(LIBRARY)
+	@ranlib $(NAME)
 
 $(SRCS): $(INCLUDES)libft.h
 

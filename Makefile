@@ -68,12 +68,9 @@ LIBDIR = Libft
 all: $(NAME)
 
 $(NAME):
-	$(MAKE) -C $(LIBDIR)
-	gcc -c $(SRCS)
-	gcc $(FLAGS) $(LIBRARY) $(OBJECTS) $(LIBFLAGS) -I $(INCLUDES) -o $(NAME)
-
-$(LIBFT):
 	@$(MAKE) -C $(LIBDIR)
+	@$(CC) -c $(SRCS)
+	@$(CC) $(FLAGS) $(LIBRARY) $(OBJECTS) $(LIBFLAGS) -I $(INCLUDES) -o $(NAME)
 
 $(SRCS): $(HEADER)
 
