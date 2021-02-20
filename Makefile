@@ -6,7 +6,7 @@
 #    By: wvaara <wvaara@hive.fi>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/10/08 09:56:51 by wvaara            #+#    #+#              #
-#    Updated: 2021/02/20 13:11:43 by wvaara           ###   ########.fr        #
+#    Updated: 2021/02/20 13:26:37 by wvaara           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = gcc
 
 FLAGS = -Wall -Wextra -Werror
 
-LIBFLAGS = -L /Users/Vilicee/Coding/FdF/minilibx -lmlx -I /usr/local/X11/include -L /usr/X11/lib -lX11 -lXext -framework OpenGL -framework AppKit
+LIBFLAGS = -L ./minilibx -lmlx -I /usr/local/X11/include -L /usr/X11/lib -lX11 -lXext -framework OpenGL -framework AppKit
 
 SOURCE_DIR = ./srcs/
 SOURCE_LIST = main.c \

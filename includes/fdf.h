@@ -6,7 +6,7 @@
 /*   By: wvaara <wvaara@hive.fi>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/08 11:51:45 by wvaara            #+#    #+#             */
-/*   Updated: 2021/02/18 14:21:01 by wvaara           ###   ########.fr       */
+/*   Updated: 2021/02/20 13:29:09 by wvaara           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
 # define FAST 102
 # define SLOW 115
 # include "../Libft/includes/libft.h"
-# include "/Users/Vilicee/Coding/FdF/minilibx/mlx.h"
+# include "../minilibx/mlx.h"
 # include <math.h>
 # include <fcntl.h>
 # include <unistd.h>
